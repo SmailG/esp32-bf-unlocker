@@ -14,10 +14,10 @@ You will need to install pyserial (⁠pip install pyserial⁠) and Ardunio IDE (
 
 
 ## ESP32 Wiring & Infrastructure
- Target GND -> ESP32 GND (Critical: You must tie the grounds together to share a common reference voltage).
- Target Up Button Header -> ESP32 GPIO 12
- Target Right Button Header -> ESP32 GPIO 14
- Target Enter Button Header -> ESP32 GPIO 27
- Relay IN / Signal -> ESP32 GPIO 26
+ - Target GND -> ESP32 GND (Critical: You must tie the grounds together to share a common reference voltage).
+ - Target Up Button Header -> ESP32 GPIO 12
+ - Target Right Button Header -> ESP32 GPIO 14
+ - Target Enter Button Header -> ESP32 GPIO 27
+ - Relay IN / Signal -> ESP32 GPIO 26
  
 Note: Wire the mower's main power line through the Normally Closed (NC) terminals of your relay. Activating the relay breaks the circuit.
